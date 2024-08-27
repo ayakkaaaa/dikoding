@@ -1,12 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dikoding</title>
+    <link rel="icon"  href="log.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        a:hover {
+            background-color: rgb(174, 194, 210);
+        }
+
+        header {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .header1 {
+            display: flex;
+            padding: 10px 20px;
+            align-items: center;
+            color: white;
+            justify-content: space-between;
+        }
+
+        .header1 .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .header1 .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        header .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .header1 .nav a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-size: 17px;
+        }
+
+        .header1 .tekan {
+            display: flex;
+            gap: 10px;
+        }
+
+        .header1 .tekan button {
+            background-color: #2d3e50;
+            border: none;
+            color: #fff;
+            padding: 8px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .header1 .tekan button:hover {
+            background-color: rgb(174, 194, 210);
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .bangun {
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            width: 50%;
+        }
+
+        .bangun button {
+            padding: 10px 20px;
+            background-color: rgb(36, 50, 64);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .foto {
+            position: relative;
+            width: 50%;
+        }
+
+        .foto img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+
+        }
+
+        .bangun button:hover {
+            background-color: rgb(174, 194, 210);
+        }
+
+        .bangun .teks h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .bangun .teks p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .dipercayai {
+            padding: 50px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .dipercayai h2 {
+            color: black;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+
+        .dipercayai .icon {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 20px;
+        }
+
+        .dipercayai .icon img {
+            max-width: 150px;
+            max-height: 60px;
+            border: 1px solid #000000;
+        }
+
+        footer {
+            background-color: #222;
+            color: #fff;
+            padding: 30px 0;
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>aasud</h1>
+    <header>
+        <div class="header1">
+            <div class="logo">
+                <div class="img">
+                    <img src="log.png">
+                </div>
+                <input type="" placeholder="Apa yang ingin anda pelajari?" style="padding: 6px 10px;">
+
+            </div>
+            <div class="nav">
+                <a href="#">Learning Path</a>
+                <a href="#">Langganan</a>
+                <a href="#">Program</a>
+                <a href="#">Lainnya</a>
+            </div>
+            <div class="tekan">
+                <button>Masuk</button>
+                <button>Daftar</button>
+            </div>
+        </div>
+    </header>
+    <div style="display: flex; background-color: #222; height: 350px; ">
+        <div class="bangun">
+            <div class="teks">
+                <h1 style="margin-bottom: -11px;">Bangun Karirmu Sebagai<br> Developer Propesional</h1>
+                <p>Mulai belajar terarah di learning path</p>
+                <button>Belajar Sekarang</button>
+            </div>
+        </div>
+        <div class="foto">
+            <div class="img">
+                <img src="gambar.png">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div>
+            <div class="dipercayai">
+                <h2>Telah dipercayai oleh</h2>
+                <div class="icon">
+                    <img src="google.png">
+                    <img src="ms.png">
+                    <img src="aws.png">
+                    <img src="ibm.png">
+                    <img src="indosat.png">
+                    <img src="garuda.png">
+                    <img src="linta.png">
+                    <img src="line.png">
+                    <img src="luce.png">
+                    <img src="samsung.png">
+                    <img src="eric.png">
+                    <img src="dbs.png">
+                    <img src="lenovo.png">
+                    <img src="intel.png">
+                    <img src="xl.png">
+                    <img src="kominfo.png">
+                    <img src="homepage-partner-kampus-merdeka.png">
+                    <img src="bang.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
 </body>
 </html>
